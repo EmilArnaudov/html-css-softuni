@@ -12,8 +12,9 @@ body section article h2 {
     color: floralwhite;
     margin: 10px 5px;
     border-radius: 10px;
+    letter-spacing: 3px;
 }
 
-body section li {
+body section article li {
     margin-left: 20px;
 }
