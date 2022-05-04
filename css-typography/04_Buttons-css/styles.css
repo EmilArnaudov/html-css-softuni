@@ -1,0 +1,49 @@
+body {
+    background-color: lightgray;
+}
+
+button {
+    outline: none;
+    font-family: Helvetica;
+    border: none;
+    padding: 6px 15px;
+    border-radius: 15px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.fill {
+    background-color: rgb(51, 51, 51);
+    color: rgb(251, 251, 251);
+}
+
+.hover:hover {
+    background-color: rgb(0, 102, 0);
+    color: rgb(251, 251, 251);
+}
+
+#normalH:hover {
+    color: rgb(0, 102, 0);
+    border-color: rgb(0, 102, 0);
+    background-color: rgb(251, 251, 251);
+}
+
+.normal {
+    border: 2px solid rgb(51, 51, 51);
+    color: rgb(31, 31, 31);
+    background-color: transparent;
+}
+
+i {
+    margin-right: 3px;
+}
+
+a {
+    font-family: Helvetica;
+    text-decoration: none;
+    padding: 6px 15px;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 15px;
+}
