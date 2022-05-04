@@ -1,1 +1,19 @@
-/* TODO: style the html */
+body {
+    background-color: #EDEDED;
+    font-family: sans-serif, Helvetica;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+body section article h2 {
+    text-decoration: underline;
+    padding: 20px;
+    background-color: #3B516B;
+    color: floralwhite;
+    margin: 10px 5px;
+    border-radius: 10px;
+}
+
+body section li {
+    margin-left: 20px;
+}
