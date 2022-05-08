@@ -1,0 +1,21 @@
+body {
+    background-color: lightgray;
+}
+
+ul {
+    padding: 20px 80px;
+    list-style-type: none;
+    text-align: center;
+}
+
+ul li {
+    display: inline-block;
+    width: 30%;
+
+}
+
+ul li img {
+    width: 80%;
+    padding: 8px;
+    border: 0.4rem solid black;
+}
