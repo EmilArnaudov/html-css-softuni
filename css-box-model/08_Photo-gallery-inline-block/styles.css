@@ -11,6 +11,7 @@ ul {
 ul li {
     display: inline-block;
     width: 30%;
+    vertical-align: middle;
 
 }
 
