@@ -1,0 +1,52 @@
+section {
+    padding: 16px;
+    border: 8px solid #e6e6e6;
+    width: 451px;
+    height: 540px;
+}
+
+section img {
+    width: 450px;
+    height: 305px;
+}
+
+section h2 {
+    font-family: Merriweather, serif;
+    font-weight: 700;
+
+    margin: 1.2rem 0;
+    color: rgb(51, 51, 51);
+}
+
+section div {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+section div p {
+    margin: 0;
+}
+
+section button {
+    width: 250px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+
+    font-family: Work Sans, sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 1px;
+
+    background-color: #d5384d;
+    color: #fff;
+}
+
+section > p {
+    font-family: Georgia, Cambria, Times New Roman, Time, serif;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 0px;
+}
