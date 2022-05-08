@@ -1,0 +1,14 @@
+body {
+    background-color: lightslategray;
+}
+
+body section p {
+    margin: auto;
+    width: 300px;
+    padding: 20px;
+
+    color: whitesmoke;
+    background-color: #0F4069;
+    border: 2px solid #e6eaef;
+    border-radius: 15px 50px;
+}
