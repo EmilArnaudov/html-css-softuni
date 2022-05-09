@@ -1,0 +1,81 @@
+@font-face {
+    font-family: "Roboto";
+    src: url(./fonts/Roboto-Light.ttf);
+}   
+
+body {
+    background-color: lightgray;
+    vertical-align: top;
+    font-family: Roboto, Helvetica, sans-serif;
+}
+
+.leftAside {
+    display: inline-block;
+    width: 24%;
+    background-color: green;
+}
+
+.main {
+    display: inline-block;
+    width: 50%;
+    background-color: white;
+}
+
+.rightAside {
+    display: inline-block;
+    width: 24%;
+    background-color: white;
+}
+
+.searchBarWrapper {
+    text-align: center;
+}
+
+.searchBar {
+    padding: 8px 16px;
+    width: 80%;
+    border: 1px solid lightgray;
+    margin: 24px 0;
+}
+
+.searchBar:focus {
+    border: none;
+    outline: none;
+}
+
+.recentlyEdited {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.recentlyEdited__projects {
+    text-align: center;
+}
+
+.recentlyEdited__projects li{
+    width: 26%;
+    display: inline-block;
+}
+
+.recentlyEdited__heading {
+    float: left;
+    text-align: left;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+.recentlyEdited__heading__container {
+    line-height: 21px;
+}
+
+.recentlyEdited__heading__tag {
+    text-align: right;
+    font-size: 12px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.recentlyEdited__projects__project img {
+    width: 100%;
+}
