@@ -156,8 +156,63 @@ main section.lading img {
     color: rgb(84, 57, 146);
 }
 
+.icon.brush {
+    color: pink;
+}
+
+.icon.monitor {
+    color: pink;
+}
+
+.icon.pencil {
+    color: orange;
+}
+
+.icon.chart {
+    color: orange;
+}
+
+.icon.chest {
+    color: skyblue;
+}
+
 .icon.phone span{
     padding: 16px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px 4px grey;
+}
+
+.icon.monitor span{
+    padding: 16px 10px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px 4px grey;
+}
+
+.icon.pencil span{
+    padding: 16px 12px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px 4px grey;
+}
+
+.icon.chest span{
+    padding: 16px 12px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px 4px grey;
+}
+
+.icon.chart span{
+    padding: 16px 12px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px 4px grey;
+}
+
+.icon.brush span{
+    padding: 16px 10px;
     background-color: white;
     border-radius: 8px;
     box-shadow: 4px 4px 4px 4px grey;
@@ -191,4 +246,13 @@ main section.lading img {
 .middle-service {
     margin-left: 24px;
     margin-right: 24px;
+}
+
+.owners h2 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: -3px;
+    line-height: 40px;
+    margin: 192px 0px 48px 0px;
 }
