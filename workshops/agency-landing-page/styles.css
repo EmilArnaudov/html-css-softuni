@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap');
+
+html {
+    font-family: Montserrat, sans-serif;
+}
+
+body {
+    padding: 32px 120px;
+    background-color: rgb(240, 240, 240);
+}
+
+nav ul {
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+.logo-container {
+    margin-right: 330px;
+}
+
+.sign-in {
+    margin-left: 330px;
+}
+
+.mid-nav-el {
+    margin-left: 12px;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: 700;
+    font-style: italic;
+    border-bottom: 1px solid black;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.nav-content {
+    font-weight: 500;
+    color: rgb(168, 138, 174);
+}
+
+.free-trial {
+    color: white;
+    background-color: rgb(93, 81, 121);
+    padding: 10px 20px;
+    font-family: Montserrat, sans-serif;
+    border: none;
+    border-radius: 4px;
+    margin-left: 5px;
+}
+
+main {
+    margin-top: 40px;
+}
+
+.landing {
+    vertical-align: top;
+    margin-left: 64px;
+}
+
+.headingWrapper,
+.imageWrapper {
+    display: inline-block;
+    width: 49%;
+}
+
+main section.landing div h1 {
+    font-size: 68px;
+    font-weight: 700;
+    letter-spacing: -3px;
+    line-height: 65px;
+    width: 85%;
+    margin-bottom: 48px;
+
+}
+
+main section.landing div p {
+    font-size: 18px;
+    width: 80%;
+    margin-bottom: 48px;
+
+}
+
+main section.lading img {
+
+    width: 100%;
+}
+
+.emailInput {
+    width: 80%;
+    border: none;
+    border: none;
+    padding: 16px 16px;
+    border-radius: 4px;
+}
+
+.emailInput:focus {
+    border: none;
+    outline: none;
+}
+
+.sendBtn {
+    border: none;
+    padding: 12px 24px;
+    margin-bottom: 4px;
+    background-color: rgb(246, 62, 89);
+    border-radius: 4px;
+    margin-left: -748px;
+    color: white;
+    cursor: pointer;
+}
+
+.sendBtn:focus {
+    border: none;
+    outline: none;
+}
+
+
+.services h2 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: -3px;
+    line-height: 40px;
+    margin: 192px 0px 48px 0px;
+}
+
+.services p {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.services-list {
+    margin-top: 60px;
+    text-align: center;
+}
+
+
+.service {
+    display: inline-block;
+    width: 25%;
+    background-color: white;
+    border-radius: 4px;
+    margin-bottom: 22px;
+}
+
+.icon.phone {
+    color: rgb(84, 57, 146);
+}
+
+.icon.phone span{
+    padding: 16px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px 4px grey;
+}
+
+.icon {
+    text-align: center;
+    padding: 48px 0;
+}
+
+.service h3 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 12px 0;
+}
+
+.service p {
+    color: rgb(152, 152, 152);
+    font-size: 16px;
+    width: 290px;
+    margin-top: 20px;
+}
+
+.services-list .service .learn-more {
+    font-weight: 500;
+    color: black;
+    padding: 24px 0;
+}
+
+.middle-service {
+    margin-left: 24px;
+    margin-right: 24px;
+}
