@@ -75,6 +75,7 @@ h2 {
 }
 
 blockquote {
+    font-family: Georgia, serif;
     width: 40%;
     float: right;
     padding-left: 36px;
