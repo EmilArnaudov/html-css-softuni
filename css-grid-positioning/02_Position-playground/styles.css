@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+}
+
+.card {
+    display: block;
+}
+
+.viewport {
+    height: 50vh;
+    position: relative;
+}
+
+.viewport:nth-child(1) {
+    background: rgb(16,111,198);
+    background: linear-gradient(90deg, rgba(16,111,198,1) 0%, rgba(0,255,153,1) 100%);
+}
+
+.viewport:nth-child(2) {
+    background: rgb(174,58,180);
+    background: linear-gradient(90deg, rgba(174,58,180,1) 11%, rgba(252,176,69,1) 88%);
+}
+
+.card {
+    position: absolute;
+    width: 14%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+img {
+    width: 100%;
+}
+
+i {
+    position: absolute;
+    color: white;
+    right: 5px;
+    bottom: 10px;
+}
