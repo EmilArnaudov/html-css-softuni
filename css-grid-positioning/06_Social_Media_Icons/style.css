@@ -1,0 +1,32 @@
+i {
+    padding: 10px;
+    border-radius: 50%;
+    background-color: rgb(241, 241, 241);
+    color: black;
+}
+
+ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 3px;
+}
+
+.face:hover {
+    color: blue;
+}
+
+.twitter:hover {
+    color: rgb(34, 204, 246);
+}
+
+.google:hover {
+    color: rgb(254, 138, 49);
+}
+
+.linkedin:hover {
+    color: rgb(10, 98, 175);
+}
+
+.instagram:hover {
+    color: white;
+}
