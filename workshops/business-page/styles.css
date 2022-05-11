@@ -49,22 +49,26 @@ body {
 .landing-section {
     background-color: rgb(238, 238, 228);
     vertical-align: top;
+    position: relative;
+    overflow: hidden;
 }
 
 .landing-title {
     display: inline-block;
     width: 60%;
-    padding: 100px 128px;
+    padding: 100px 190px;
 }
 
 .landing-image {
-    display: inline-block;
-    width: 39%;
+    width: 43%;
+    position: absolute;
+    top: 0;
+    right: 0
 }
 
 .landing-image img {
     width: 100%;
-    height: 100vh;
+
 }
 
 .landing-title h1 {
@@ -107,4 +111,77 @@ p.watch-video{
     border-radius: 50%;
     margin-right: 8px;
     cursor: pointer;
+}
+
+.ideas {
+    position: absolute;
+    z-index: 2;
+    bottom: 26%;
+    right: 39%;
+
+    padding: 30px 24px;
+    background-color: rgb(201, 152, 201);
+    border-radius: 5px 30% 5px 30%;
+
+    /* line-height: 22px; */
+}
+
+.ideas p {
+    margin: 0;
+}
+
+.ideas .first {
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.ideas .second {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 10px;
+}
+
+.ideas .third {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.clients {
+    position: absolute;
+    z-index: 1;
+    bottom: 10%;
+    right: 34%;
+
+    padding: 30px 24px;
+    background-color: rgb(255, 255, 133);
+    border-radius: 5px 30% 5px 30%;
+
+}
+
+.clients p {
+    margin: 0;
+}
+
+.clients .first {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 58px;
+}
+
+.clients .second {
+    text-align: center;
+    color: gray;
+    font-size: 12px;
+}
+
+.drawing {
+    width: 220px;
+    height: 220px;
+    position: absolute;
+    bottom: 4%;
+    left: 33%;
+}
+
+.drawing img {
+    width: 100%;
 }
