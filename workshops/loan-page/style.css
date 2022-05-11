@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap');
+
+html {
+    font-family: Montserrat, sans-serif;
+}
+
+body {
+    background-color: lightgray;
+}
+
+.container {
+    background-color: rgb(238, 238, 237);
+    margin: 60px;
+}
+
+nav {
+    padding: 20px 40px;
+}
+
+nav ul {
+    padding-right: 40px;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: bold;
+    margin-right: 48px;
+}
+
+i {
+    color: rgb(241, 42, 42);
+}
+
+.arrow {
+    color: black;
+    font-size: 9px;
+}
+
+.service {
+    margin-left: 10px;
+}
+
+.service.second {
+    margin-right: 530px;
+}
+
+.nav-button {
+    background-color: rgb(6, 7, 37);
+    color: white;
+    padding: 14px 22px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.contact {
+    margin-left: 36px;
+}
+
+.auth {
+    padding: 8px 0px;
+    margin-left: 12px;
+}
+
+.auth.sign {
+    border-left: 1px solid gray;
+    padding-left: 12px;
+}
+
+main section {
+    margin-top: 50px;
+}
+
+.heading {
+    margin: 0 auto;
+    font-size: 60px;
+    font-weight: 700;
+    width: 50%;
+    text-align: center;
+    line-height: 68px;
+    letter-spacing: -3px;
+}
+
+.three {
+    color: #6e50c7;
+}
+
+.learn-more {
+    display: block;
+    margin: 32px auto 0 auto;
+    padding: 16px 34px;
+    font-weight: 600;
+    background-color:#9278e2;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.right {
+    color: black;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.loans {
+    margin-top: 48px;
+    list-style-type: none;
+    padding: 24px 48px;
+    text-align: center;
+}
+
+.loans li {
+    display: inline-block;
+    width: 12%;
+    padding: 30px 24px 18px 24px;
+    border: none;
+    background-color: white;
+    border-radius: 16px;
+}
+
+.loans li p{
+    letter-spacing: -1px;
+    font-weight: 600;
+    color: gray;
+}
+
+.dollar {
+    font-size: 28px;
+    color: rgb(255,12,12);
+    color: linear-gradient(306deg, rgba(255,12,12,1) 0%, rgba(251,252,69,1) 100%);
+}
+
+.mid {
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.left {
+    margin-left: 16px;
+}
+
+.right {
+    margin-right: 16px;
+}
