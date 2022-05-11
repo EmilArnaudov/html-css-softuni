@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav-ul {
+    list-style-type: none;
+    padding: 32px 140px;
+    margin: 0;
+    text-align: right;
+}
+
+.nav-ul li {
+    display: inline-block;
+    margin-right: 32px;
+}
+
+.nav-ul li:last-of-type {
+    margin-right: 0px;
+}
+
+.nav-ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.logo {
+    margin: 0;
+    font-weight: 700;
+    font-size: 24px;
+    position: absolute;
+    top: 36px;
+    left: 140px;
+}
+
+.nav-btn {
+    padding: 12px 24px;
+    background-color: transparent;
+    font-weight: 600;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.landing-section {
+    background-color: rgb(238, 238, 228);
+    vertical-align: top;
+}
+
+.landing-title {
+    display: inline-block;
+    width: 60%;
+    padding: 100px 128px;
+}
+
+.landing-image {
+    display: inline-block;
+    width: 39%;
+}
+
+.landing-image img {
+    width: 100%;
+    height: 100vh;
+}
+
+.landing-title h1 {
+    margin: 0;
+    width: 49%;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 74px;
+}
+
+.landing-title p {
+    color: gray;
+    width: 39%;
+    font-size: 16px;
+    letter-spacing: 0.01px;
+    line-height: 25px;
+    margin: 32px 0;
+}
+
+.get-started {
+    padding: 14px 28px;
+    color: white;
+    border: none;
+    background-color: black;
+    font-weight: 500;
+    cursor: pointer;
+    margin-bottom: 32px;
+}
+
+p.watch-video{
+    font-weight: 600;
+    color: black;
+    cursor: pointer;
+}
+
+.play {
+    background-color: rgb(201, 152, 201);
+    color: rgb(26, 26, 119);
+    padding: 10px 12px 8px 14px;
+    border-radius: 50%;
+    margin-right: 8px;
+    cursor: pointer;
+}
