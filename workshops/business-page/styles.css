@@ -194,6 +194,7 @@ p.watch-video{
 
 .second-section {
     margin-top: 200px;
+    padding: 0 190px;
     position: relative;
 }
 
@@ -202,15 +203,14 @@ p.watch-video{
     font-size: 50px;
     font-weight: 700;
     width: 30%;
-    margin-left: 280px;
     display: inline-block;
     vertical-align: top;
 }
 
 .services-list-container {
     display: inline-block;
-    
-    margin-right: 175px;
+    margin: 0 auto;
+    margin-left: 191px;
 
 }
 
@@ -277,9 +277,9 @@ p.watch-video{
 .business-guy-image-container {
     position: absolute;
     top: 230px;
-    left: 280px;
+    left: 190px;
     width: 400px;
-    height: 500px;
+    height: 550px;
     overflow: hidden;
 }
 
@@ -303,9 +303,113 @@ p.watch-video{
 .black-background {
     position: absolute;
     background-color: black;
-    bottom: -50px;
+    bottom: -150px;
     left: 0;
     right: 0;
     top: 50%;
     z-index: -20;
 }
+
+.third-section {
+    margin-top: 300px;
+    padding: 0 190px;
+}
+
+.third-section-heading {
+    margin: 0;
+    font-size: 50px;
+    font-weight: 700;
+    width: 30%;
+    display: inline-block;
+    line-height: 70px;
+}
+
+.third-section-description {
+    display: inline-block;
+    margin: 0px 0px;
+    width: 37%;
+    color: gray;
+    line-height: 30px;
+    margin-left: 249px;
+}
+
+.second-drawing {
+    width: 10%;
+    display: inline-block;
+}
+
+.emphasized {
+    font-weight: 700;
+    color: rgb(56, 56, 56);
+}
+
+.second-drawing img {
+    width: 100%;
+}
+
+.grid-wrapper {
+    display: grid;
+    align-items: top;
+    gap: 24px;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 42px;
+}
+
+.grid-element {
+    position: relative
+}
+
+.grid-rel {
+    position: relative;
+    
+    position: relative;
+    bottom: -24%;
+
+}
+
+.grid-element:first-of-type {
+    padding: 22px;
+    background-color: rgb(2, 0, 21);
+    color: white;
+    height: 280px;
+}
+
+.yellow {
+    color: rgb(5, 0, 54);
+    padding: 22px;
+    background-color: rgb(255, 255, 136);
+    height: 280px;
+}
+
+.purple {
+    color: rgb(5, 0, 54);
+    padding: 22px;
+    background-color: rgb(204, 166, 204);
+    height: 280px;
+}
+
+.grid-element-number {
+    margin: 0;
+    display: inline-block;
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 600;
+}
+
+.grid-element-badge {
+    margin: 0;
+    display: inline-block;
+    margin-left: 52%;
+    font-weight: 700;
+    font-size: 12px;
+    position: relative;
+    top: -5px;
+}
+
+.grid-element-desc {
+    margin: 0px;
+    vertical-align: bottom;
+    color: gray;
+    line-height: 22px;
+}
+
