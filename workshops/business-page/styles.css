@@ -533,3 +533,88 @@ p.watch-video{
 .team-member.middle {
     background-color: rgb(255, 255, 136);
 }
+
+.footer {
+    position: relative;
+    margin-top: 120px;
+    height: 333px;
+    background-color: black;
+    padding: 40px 190px 20px 190px;
+}
+
+.footer ul {
+    padding-left: 0px;
+    list-style-type: none;
+}
+
+.footer-logo {
+    font-weight: 700;
+    font-size: 24px;
+    color: white;
+}
+
+.footer-main-ul {
+    list-style-type: none;
+    width: 75%;
+
+}
+
+.footer-nested-ul-container {
+    width: 24%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.nested-ul-item p {
+    color: gray;
+}
+
+.nested-ul-item .title {
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(255, 255, 136);
+}
+
+.footer-bottom-span {
+    color: gray;
+    font-size: 12px;
+}
+
+.footer-bottom-div {
+    text-align: right;
+    position: absolute;
+    bottom: 0;
+    right: 190px;
+    font-size: 12px;
+}
+
+.formality{
+    display: inline-block;
+    color: gray;
+    margin-left: 8px;
+    font-size: 12px;
+}
+
+.email-input {
+    width: 503px;
+    height: 54px;
+    border: none;
+    padding-left: 12px;
+}
+
+.email-input:focus {
+    border: none;
+    outline: none;
+}
+
+.footer-btn {
+    position: absolute;
+    padding: 14px 32px;
+    background-color: rgb(255, 255, 136);
+    right: 185px;
+    bottom: 156px;
+    height: 56px;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
