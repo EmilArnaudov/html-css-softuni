@@ -44,6 +44,12 @@ body {
     font-weight: 600;
     border: 2px solid black;
     cursor: pointer;
+    transition: background-color 300ms ease-in-out;
+}
+
+.nav-btn:hover {
+    background-color: black;
+    color: white;
 }
 
 .landing-section {
@@ -184,4 +190,122 @@ p.watch-video{
 
 .drawing img {
     width: 100%;
+}
+
+.second-section {
+    margin-top: 200px;
+    position: relative;
+}
+
+.second-section h2 {
+    margin: 0;
+    font-size: 50px;
+    font-weight: 700;
+    width: 30%;
+    margin-left: 280px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.services-list-container {
+    display: inline-block;
+    
+    margin-right: 175px;
+
+}
+
+.services-list {
+    list-style-type: none;
+    width: 600px;
+    padding: 0;
+    margin: 0;
+}
+
+.services-list .service {
+    position: relative;
+    transition: background-color 300ms ease-in-out;
+    padding: 24px;
+    background-color: white;
+}
+
+.service-icon-container {
+    width: 30%;
+    display: inline-block;
+    position: relative;
+    top: 50%;
+    left: 23.5%;
+    transform: translate(-50%, -50%);
+}
+
+.service-item {
+    width: 69%;
+    display: inline-block;
+}
+
+.service-icon {
+    font-size: 24px;
+    padding: 20px 24px;
+    background-color: rgb(255, 255, 109);
+    border-radius: 50%;
+}
+
+.service-name {
+    font-weight: 700;
+    transition: color 300ms ease-in-out;
+}
+
+.service-description {
+    color: gray;
+    line-height: 24px;
+    width: 74%;
+    transition: color 300ms ease-in-out;
+
+}
+
+.service:hover {
+    background-color: black;
+}
+
+.service:hover .service-name{
+    color: rgb(96, 96, 96);
+}
+
+.service:hover .service-description {
+    color: lightgray;
+}
+
+.business-guy-image-container {
+    position: absolute;
+    top: 230px;
+    left: 280px;
+    width: 400px;
+    height: 500px;
+    overflow: hidden;
+}
+
+.business-guy-img {
+    width: 100%;
+
+}
+
+.services-list .service:first-of-type {
+    background-color: black;
+}
+
+.services-list .service:first-of-type .service-name {
+    color: rgb(96, 96, 96);
+}
+
+.services-list .service:first-of-type .service-description {
+    color: lightgray;
+}
+
+.black-background {
+    position: absolute;
+    background-color: black;
+    bottom: -50px;
+    left: 0;
+    right: 0;
+    top: 50%;
+    z-index: -20;
 }
