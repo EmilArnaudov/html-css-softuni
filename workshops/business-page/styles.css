@@ -490,3 +490,46 @@ p.watch-video{
 .transition-drawing img {
     width: 100%;
 }
+
+.team-section {
+    padding: 0 190px;
+}
+
+.team-section-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.team-member {
+    padding: 16px;
+    text-align: center;
+}
+
+.member-photo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.member-name {
+    font-weight: 600;
+    margin: 0px;
+}
+
+.member-title {
+    color: gray;
+    margin: 0px;
+    font-size: 14px;
+}
+
+.member-quote {
+    color: gray;
+    font-weight: 500;
+    line-height: 24px;
+    width: 70%;
+    margin: 32px auto 0 auto;
+}
+
+.team-member.middle {
+    background-color: rgb(255, 255, 136);
+}
