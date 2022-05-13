@@ -1,0 +1,56 @@
+.html * {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    max-width: 65vw;
+    align-items: center;
+}
+
+.container section {
+    display: flex;
+    align-items: center;
+}
+
+span {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.week {
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.notes {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.long {
+    width: 100%;
+    flex-grow: 1;
+    padding: 12px 0 48px 0;
+}
+
+.mon-fri {
+    width: calc(20% - 2px);
+    padding: 12px 0 48px 0;
+}
+
+.sat-sun{
+    width: calc(50% - 2px);
+    padding: 12px 0 48px 0;
+}
+
+.notes {
+    height: 321px;
+}
+
+.note {
+    height: calc(50% - 2px);
+    align-self: stretch;
+    padding: 0 12px;
+}
