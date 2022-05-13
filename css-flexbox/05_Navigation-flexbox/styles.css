@@ -1,0 +1,42 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    padding: 68px;
+}
+
+header {
+    display: flex;
+    border-bottom: 2px solid rgb(0,0,0);
+    justify-content: right;
+    padding-bottom: 32px;
+    margin-bottom: 32px;
+}
+
+header ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 32px;
+}
+
+header a {
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+    font-weight: 500;
+}
+
+.title {
+    margin-left: 0;
+    margin-right: auto;
+    color: black;
+    font-size: 52px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+p {
+    line-height: 1.4;
+}
