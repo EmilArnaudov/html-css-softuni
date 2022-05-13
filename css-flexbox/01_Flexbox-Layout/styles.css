@@ -1,0 +1,38 @@
+body {
+    background-color: gray;
+    padding: 120px 120px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+header,
+main,
+aside,
+footer {
+    background-color: white;
+    padding: 30px 120px;
+}
+
+header {
+    width: 100%;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+main {
+    height: 200px;
+    width: calc(70% - 245px);
+    flex-grow: 7;
+    flex-shrink: 7;
+}
+
+aside {
+    width: calc(30% - 245px);
+    flex-shrink: 3;
+    flex-grow: 3;
+}
+
+footer {
+    width: 100%;
+}
