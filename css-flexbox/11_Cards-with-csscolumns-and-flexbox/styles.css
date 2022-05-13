@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(238, 238, 238);
+    padding: 12px 90px;
+    /* display: flex; */
+    /* justify-content: center; */
+}
+
+.cards-layout {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+
+.column {
+    display: flex;
+    width: 20%;
+    flex-direction: column;
+    gap: 16px;
+
+}
+
+.card {
+    background-color: white;
+    border: 1px solid lightgray;
+}
+
+.card section {
+    padding: 12px;
+}
+
+img {
+    width: 100%;
+}
+
+footer {
+    padding: 12px;
+    border-top: 1px solid lightgray;
+}
+
+.flex {
+    flex-wrap: wrap;
+
+}
+
+.flex .column {
+    flex-direction: row;
+    width: 60%;
+    flex-wrap: wrap;
+}
+
+.flex .card {
+    width: 30%;
+}
