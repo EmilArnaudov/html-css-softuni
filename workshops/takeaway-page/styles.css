@@ -11,6 +11,11 @@ html {
     display: flex;
 }
 
+
+/*
+------- ASIDE
+ */
+
 .side-menu {
     box-sizing: border-box;
     display: flex;
@@ -112,4 +117,85 @@ footer.side-menu-footer > button {
 
 footer.side-menu-footer > button > i {
     margin-right: 14px;
+}
+
+
+/*------- MAIN - NAVIGATION-----*/
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    /* padding: 48px; */
+}
+
+.content > header {
+    width: calc(100vw - 16%);
+    height: 100px;
+    border-bottom: 1px solid lightgray;
+}
+
+.content > header > nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+}
+
+.content > header > nav  i{
+    color: black;
+    font-size: 24px;
+}
+
+.content > header > nav > ul {
+    display: flex;
+    gap: 36px;
+    align-items: center;
+}
+
+.user-info {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 12px;
+    gap: 10px;
+}
+
+.user-info-img-container img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.user-info-name-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.account-type {
+    font-size: 14px;
+    color: rgb(182, 182, 182);
+}
+
+.welcome-message {
+    font-size: 36px;
+    font-weight: 500;
+}
+
+/* -------MAIN-CONTENT-------- */
+
+.content-main {
+    padding: 24px;
+    display: flex;
+}
+
+.restaurant-info {
+    display: flex;
+}
+
+.rating-badge {
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    padding: 8px 12px;
+    border-radius: 6px;
 }
