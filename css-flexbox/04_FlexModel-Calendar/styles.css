@@ -45,8 +45,8 @@ span {
     padding: 12px 0 48px 0;
 }
 
-.notes {
-    height: 321px;
+.notes span{
+    flex-grow: 1;
 }
 
 .note {
