@@ -122,6 +122,10 @@ footer.side-menu-footer > button > i {
 
 /*------- MAIN - NAVIGATION-----*/
 
+main {
+    padding: 24px;
+}
+
 .content {
     display: flex;
     flex-wrap: wrap;
@@ -191,6 +195,9 @@ footer.side-menu-footer > button > i {
 
 .restaurant-info {
     display: flex;
+    gap: 10px;
+    width: 100%;
+    height: 190px;
 }
 
 .rating-badge {
@@ -199,4 +206,154 @@ footer.side-menu-footer > button > i {
     font-size: 12px;
     padding: 8px 12px;
     border-radius: 6px;
+    width: 9.48%;
+}
+
+.restaurant-details-container {
+    display: flex;
+    width: 70%;
+    padding: 16px;
+    background-color: #efe6d2;
+    border-radius: 12px;
+}
+
+.shipping-details {
+    width: calc(30% - 64px);
+}
+
+.restaurant-details {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 12px;
+    gap: 12px;
+}
+
+.chef-img-container img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.restaurant-details-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+    color: #403931;
+}
+
+.restaurant-details-name {
+    font-size: 22px;
+    font-weight: 600;
+
+}
+
+.restaurant-details-left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 75%;
+    height: 100%;
+}
+
+.restaurant-details-right-side {
+    width: 25%;
+    background-image: url(./yellowdot-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.restaurant-details-img-background
+
+.restaurant-details-right-side img {
+    width: 100%;
+    height: 100%;
+
+}
+
+
+.shipping-details {
+    display: flex;
+    flex-direction: column;
+    background-color: #030303;
+    border-radius: 12px;
+    color: white;
+    padding: 22px;
+    font-size: 17px;
+    font-weight: 500;
+    justify-content: space-around;
+}
+
+
+.delivery-fees-container {
+    display: flex;
+    gap: 12px;
+
+}
+
+.shipping-details i {
+    padding: 12px 16px;
+    font-size: 20px;
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.arival-time-container {
+    display: flex;
+    gap: 12px;
+}
+
+.delivery-fees-price {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.arival-time-time {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.secondary {
+    font-size: 14px;
+    color: rgb(182, 182, 182);
+}
+
+.popular-items-divider {
+    display: flex;
+    justify-content: space-between;
+    margin: 42px 0;
+
+    color: #2e2e2e;
+}
+
+.mini-title {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.popular-items-divider button {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    width: 200px;
+    font-size: 15px;
+    border-radius: 8px;
+
+    color: white;
+    background-color: black;
+
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.dishes-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 12px;
 }
