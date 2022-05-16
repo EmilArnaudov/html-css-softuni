@@ -12,6 +12,7 @@ header {
     grid-area: header;
 }
 
+
 main {
     grid-area: main;
 }
@@ -22,6 +23,20 @@ aside {
 
 footer {
     grid-area: footer;
+}
+
+nav {
+    display: inline-flex;
+}
+
+nav > ul {
+    list-style-type: none;
+    display: flex;
+    gap: 45px;
+}
+
+nav a {
+    text-decoration: none;
 }
 
 .component {
@@ -60,6 +75,17 @@ aside ul li a {
     header h1 {
         display: block;
         margin-bottom: 5px;
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        justify-content: space-around;
+        justify-self: flex-end;
     }
 
     }
