@@ -1,0 +1,128 @@
+@import url(../../fontawesome-free-6.1.1-web/css/all.min.css);
+
+body {
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+    display: block;
+    background-color: rgb(248, 248, 248);
+    padding: 24px 18px;
+    border: 1px solid lightgray;
+    position: relative;
+    -webkit-box-shadow: 0px 0px 14px -2px #000000; 
+    box-shadow: 0px 0px 14px -2px #000000;
+}
+
+label {
+    font-weight: 700;
+}
+
+form p {
+    margin-top: 0px;
+}
+
+fieldset {
+    display: none;
+}
+
+.input-container {
+    position: relative;
+    width: 100%;
+}
+
+.input-container > i {
+    position: absolute;
+    top: 7px;
+    left: 13px;
+}
+
+input {
+    border: 1px solid lightgray;
+    padding: 6px 2px;
+    width: 100%;
+}
+
+input:focus {
+    border: none;
+    outline: none;
+}
+
+form button {
+    color: white;
+    background-color: black;
+
+    padding: 4px 12px;
+}
+
+.login-badge {
+    background-color: rgb(248, 248, 248);
+    padding: 8px 12px;
+    border: 1px solid lightgray;
+    position: absolute;
+    top: -20px;
+    left: -1px;
+    width: 25%;
+    -webkit-box-shadow: 0px 0px 14px -2px #000000; 
+box-shadow: 0px 0px 14px -2px #000000;
+}
+
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    body {
+        padding: 32px;
+    }
+
+    form {
+        margin: 0 auto;
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    body {
+        padding: 64px;
+    }
+
+    form {
+        margin: 0 auto;
+        width: 60%;
+    }
+
+    body form p.input-container{
+        display: inline-block;
+        width: 75%;
+    }
+
+    p.input-container:last-of-type {
+        margin-left: 5px;
+    }
+
+    body form button {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    body {
+        padding: 64px 256px;
+    }
+
+    form {
+        margin: 0 auto;
+    }
+
+    body form p.input-container{
+        display: inline-block;
+        width: 83%;
+    }
+
+    p.input-container:last-of-type {
+        margin-left: 5px;
+    }
+
+    body form button {
+        display: block;
+    }
+}
