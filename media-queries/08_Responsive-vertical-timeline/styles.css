@@ -1,0 +1,133 @@
+@import url(../07_Responsive-tables/reset.css);
+
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 20px 50px 0px 50px;
+    border: 1px solid gray;
+}
+
+body {
+    padding: 24px;
+    border: 1px solid gray;
+}
+
+.row article{
+    width: 50%;
+    padding: 24px;
+    text-align: right;
+}
+
+.row {
+    display: flex;
+    position: relative;
+}
+
+.ball {
+    background-color: black;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 4px solid gray;
+    position: absolute;
+    right: 48.5%;
+    top: 35px;
+    transform: translateY(-48.5%);
+}
+
+.green {
+    background-color: green;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.row article p {
+    line-height: 20px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 32px;
+    padding-top: 20px;
+}
+
+li {
+    line-height: 20px;
+}
+
+span {
+    font-weight: bold;
+}
+
+.middle-line {
+    position: absolute;
+    width: 5px;
+    background-color: gray;
+    height: 100%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+article h2 {
+    font-size: 20px;
+    font-weight: 600;
+    font-style: italic;
+    margin-bottom: 12px;
+}
+
+.row:nth-child(even) {
+    justify-content: flex-end;
+}
+
+.row:nth-child(even) > article {
+    text-align: left;
+}
+
+@media screen and (min-width: 1024px) {
+    .ball {
+        left: 48.5%;
+        top: 35px;
+        transform: translateY(-48.5%);
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .ball {
+        left: 48%;
+        top: 35px;
+        transform: translateY(-48%);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .wrapper .row {
+        justify-content: flex-end;
+
+    }
+
+
+    .ball {
+        left: 2.8%;
+        top: 35px;
+        transform: translateY(-46.5%);
+    }
+
+    .wrapper {
+        padding: 12px;
+    }
+
+    .wrapper .row article {
+        width: 90%;
+        text-align: left;
+    }
+
+    .wrapper .middle-line {
+        left: 8%;
+    }
+}
