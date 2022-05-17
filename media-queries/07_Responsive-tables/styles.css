@@ -1,0 +1,74 @@
+@import url(./reset.css);
+
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    padding: 24px;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+    border: 1px solid lightgray
+}
+
+th {
+    text-align: left;
+    color: white;
+    font-weight: 500;
+    background-color: black;
+    padding: 8px 12px;
+    width: 30%;
+    border: 1px solid lightgray;
+}
+
+td {
+    padding: 8px 12px;
+    width: 30%;
+    border: 1px solid lightgray;
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(250, 253, 255);
+}
+
+@media screen and (max-width: 620px) {
+    table thead {
+        display: none;
+    }
+
+    tr {
+        display: flex;
+        flex-direction: column;
+    }
+
+    td {
+        width: 100%;
+    }
+
+    table td.first-name::before {
+        content: "First Name";
+        font-weight: bold;
+        width: 120px;
+        min-width: 120px;
+        margin-right: 12px;
+    }
+
+    table td.second-name::before {
+        content: "Last Name";
+        font-weight: bold;
+        width: 120px;
+        min-width: 120px;
+        margin-right: 12px;
+    }
+
+    table td.job-title::before {
+        content: "Job Title";
+        font-weight: bold;
+        width: 120px;
+        min-width: 120px;
+        margin-right: 12px;
+    }
+}

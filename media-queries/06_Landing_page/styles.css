@@ -372,6 +372,36 @@ footer i {
     }
 }
 
+@media screen and (min-width: 700px) {
+    html {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    html {
+        font-size: 22px;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    html {
+        font-size: 22px;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    html {
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 1700px) {
+    html {
+        font-size: 26px;
+    }
+}
+
 
 /* DEVICE QUERIES ----------------- */
 
@@ -445,7 +475,7 @@ footer i {
     }
 
     .hero-section {
-        padding: 144px;
+        padding: 72px 144px;
     }
 
     .testimonials {
