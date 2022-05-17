@@ -308,13 +308,14 @@ footer {
     padding: 24px 36px;
 }
 
-footer > h2 {
+.footer-heading  h2 {
     font-size: 1.5rem;
     font-weight: 500;
 }
 
-footer > p:first-of-type {
+.footer-heading  p:first-of-type {
     font-size: 0.75rem;
+    line-height: 1.2rem;
     margin: 16px 0;
 }
 
@@ -396,5 +397,71 @@ footer i {
 
     .hero-section {
         padding: 72px;
+    }
+
+    .testimonials {
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 24px;
+    }
+
+    .team-members {
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 24px;
+    }
+
+    .input-container {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    footer {
+        display: flex;
+        gap: 2rem;
+        justify-content: space-between;
+        padding: 48px 12px;
+    }
+
+    footer > * {
+        width: 26%;
+    }
+
+    footer .footer-heading {
+        align-self: center;
+    }
+
+    footer .contacts .contacts-heading {
+        margin-bottom: 10px;
+        font-size: 0.9rem;
+    }
+
+    footer .contacts p {
+        min-width: fit-content;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    nav {
+        padding: 0px 120px;
+    }
+
+    .hero-section {
+        padding: 144px;
+    }
+
+    .testimonials {
+        padding: 60px;
+    }
+
+    .team-members {
+        padding: 60px;
+    }
+
+    .input-container {
+        width: 40%;
+        margin: 0 auto;
+    }
+
+    footer {
+        padding: 48px 96px;
     }
 }
