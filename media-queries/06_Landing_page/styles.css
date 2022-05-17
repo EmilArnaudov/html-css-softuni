@@ -10,6 +10,7 @@ html {
 
 body {
     padding: 8px 16px;
+    background-color: rgb(236, 236, 236);
     /* background: repeating-linear-gradient(
   140deg,
   #ffffff,
@@ -218,6 +219,8 @@ nav {
     padding: 32px;
     background-image: linear-gradient(137deg, #ffffff 25%, #fdfdfd 25%, #fdfdfd 50%, #ffffff 50%, #ffffff 75%, #fdfdfd 75%, #fdfdfd 100%);
     background-size: 58.65px 54.69px;
+    -webkit-box-shadow: 0px 7px 27px -1px #000000; 
+    box-shadow: 0px 7px 27px -1px #000000;
 }
 
 .testimonials {
@@ -277,6 +280,53 @@ nav {
 
 .testimonials-section .testimonial-card-image-container img {
     width: 100%;
+}
+
+/* FOOTER ----------------------- */
+
+footer {
+    padding: 24px 36px;
+}
+
+footer > h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+footer > p:first-of-type {
+    font-size: 0.75rem;
+    margin: 16px 0;
+}
+
+footer .sitemap-heading {
+    font-weight: 500;
+}
+
+footer .sitemap {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 90px;
+}
+
+footer .sitemap p {
+    font-size: 0.75rem;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+footer .contacts-heading {
+    font-weight: 500;
+}
+
+footer .contacts p {
+    font-size: 0.8rem;
+    margin-bottom: 8px;
+}
+
+footer i {
+    margin-right: 5px;
 }
 
 @media screen and (min-width: 380px) {
