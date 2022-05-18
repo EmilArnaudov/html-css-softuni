@@ -4,9 +4,35 @@
 /* TODO	create a valid CSS Grid  */
 /* TODO make the layout responsive by using media queries */
 
+body {
+  display: grid;
+  grid-template-areas: 
+  "header header header"
+  "aside main main"
+  "aside main main"
+  "footer footer footer"
+  ;
+}
 
+main {
+  grid-area: main;
+}
 
+.task-board {
+  grid-area: task-board;
+}
 
+.new-task {
+  grid-area: new-task;
+}
+
+.search {
+  grid-area: search;
+}
+
+.rest-api {
+  grid-area: rest-api;
+}
 
   /* ----------- Styles ----------- */
   body {
@@ -17,6 +43,7 @@
     background: rgb(181, 216, 255);
     padding: 0px 3px 4px 3px;
     border-radius: 3px;
+    grid-area: header;
   }
   
   body header a {
@@ -34,6 +61,7 @@
   }
   
   aside {
+    grid-area: aside;
     background: rgb(181, 216, 255);
     border-radius: 3px;
   }
@@ -58,13 +86,15 @@
   footer {
     background: rgb(181, 216, 255);
     padding: 8px;
-    border-radius: 3px; 
+    border-radius: 3px;
+    grid-area: footer;
   }
   
   main section {
     background: rgb(171, 208, 243);
     padding: 15px;
     border-radius: 5px;
+    grid-area: section;
   }
   
   main div a {
