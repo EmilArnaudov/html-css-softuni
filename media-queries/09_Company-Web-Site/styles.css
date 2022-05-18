@@ -8,12 +8,23 @@
   padding: 20px;
 }
 
+html {
+  font-family: Helvetica, sans-serif;
+}
+
 body {
 /* TODO
 CSS Grid. Display grid. 
 Define the grid areas. 
 Create two unequal columns that sits next to each other 
 */
+  display: grid;
+  grid-template-areas: 
+  "header header header"
+  "nav nav nav"
+  "aside main main"
+  "footer footer footer"
+  ;
 }
 
 /* TODO Reference the grid area */
@@ -24,30 +35,90 @@ Create two unequal columns that sits next to each other
 
 body {
 /* TODO style the body*/
+  margin: 0;
 }
 
 header { 
 /* TODO style the header */
+ grid-area: header;
+ background-color: #03fcb1;
+ color: white;
+ padding: 10vh 0;
+}
+
+header > * {
+  text-align: center;
+}
+
+header > h1 {
+  margin-bottom: 8px;
 }
 
 nav {
 /* TODO style the navigation bar*/
+  grid-area: nav;
+  background-color: black;
+  padding: 12px 0;
+}
+
+nav a:first-of-type {
+  margin-left: 32px;
 }
 
 nav a {
 /* TODO style the navigation bar links*/
+  text-decoration: none;
+  color: white;
+  margin-left: 48px;
 }
 
 aside {
 /* TODO style the sidebar*/
+  grid-area: aside;
+  padding: 24px;
 }
 
 main {
 /* TODO style the main*/
+  grid-area: main;
+  padding: 24px;
 }
 
 footer{
 /* TODO style the footer*/
+  grid-area: footer;
+  background-color: rgb(231, 231, 231);
+}
+
+footer > h2 {
+  text-align: center;
+  padding: 36px 0;
+}
+
+@media screen and (min-width: 320px) and (max-width: 700px) {
+  body {
+    grid-template-areas: 
+    "header"
+    "nav"
+    "aside"
+    "main"
+    "footer"
+    ;
+  }
+
+  body nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  body nav a {
+    margin-left: 0;
+  }
+
+  body nav a:first-of-type {
+    margin-left: 0;
+  }
 }
 
 /* TODO Responsive layout - when the screen is less than 700px wide, 
