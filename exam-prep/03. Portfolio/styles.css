@@ -176,3 +176,154 @@ nav i {
     object-fit: cover;
     object-position: center;
 }
+
+.section-four {
+    padding: 88px;
+    display: flex;
+}
+
+.section-four-text-container {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-four-text-container > div {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+
+.section-four-text-title {
+    font-size: 48px;
+}
+
+.section-four-text-description {
+    font-style: italic;
+    line-height: 27px;
+    width: 74%;
+    font-family: 'PT Serif', sans-serif;
+}
+
+.section-four-image {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+/* .four-img-container {
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+.section-four-image img {
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.second-img-row {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.second-img-row img:first-of-type{
+    height: 300px;
+    width: 450px;
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    transform: translateY(-50%);
+}
+
+.second-img-row img:last-of-type{
+    height: 300px;
+    width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+}
+
+.second-img-row .middle-image {
+    height: 400px;
+    width: 625px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
+
+.footer-title {
+    font-size: 48px;
+    text-align: center;
+    margin-top: 72px;
+    margin-bottom: 48px;
+}
+
+.footer-description {
+    font-style: italic;
+    font-family: 'PT Serif', sans-serif;
+    text-align: center;
+    width: 68%;
+    margin: 0 auto 48px auto;
+}
+
+.contact-inputs {
+    display: grid;
+    grid-template-areas: 
+    "email-input subject-input"
+    "message-input message-input"
+    "input-btn input-btn"
+    ;
+    width: 50%;
+    margin: 0 auto;
+    gap: 26px;
+}
+
+.contact-inputs input {
+    height: 35px;
+    background-color: transparent;
+    border: 1px solid black;
+    padding-left: 8px;
+}
+
+.input-btn {
+    background-color: black;
+    color: white;
+    padding: 12px 12px;
+    font-weight: 600;
+}
+
+.contact-inputs input:focus {
+    border: 1px solid black;
+    outline: none;
+}
+
+.email-input {
+    grid-area: email-input;
+}
+.subject-input {
+    grid-area: subject-input;
+}
+.contact-inputs .message-input {
+    grid-area: message-input;
+    padding-bottom: 70px;
+}
+.input-btn {
+    grid-area: input-btn;
+}
+
+.copyright-p {
+    text-align: center;
+    margin-top: 140px;
+}
