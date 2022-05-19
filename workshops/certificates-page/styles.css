@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;1,400;1,700&family=Roboto:wght@400;700&display=swap');
 @import url(./reset.css);
+@import url(../../fontawesome-free-6.1.1-web/css/all.min.css);
 
 /* GLOBAL STYLES ---------------------- */
 
@@ -82,4 +83,105 @@ nav ul li button {
     display: flex;
     width: 40%;
     justify-content: center;
+}
+
+/* SECOND-SECTION ------------------- */
+
+.second-section {
+    display: flex;
+    padding: 90px 60px;
+    background-color: rgb(6, 6, 33);
+    color: white;
+    position: relative;
+}
+
+.second-section-text {
+    width: 70%;
+}
+
+.second-section-heading {
+    font-size: 24px;
+}
+
+.second-section-description {
+    margin: 24px 0;
+    line-height: 20px;
+    width: 80%;
+}
+
+.second-section img {
+    position: absolute;
+}
+
+/* THIRD SECTION ------------------------- */
+
+.third-section {
+    display: flex;
+    padding: 72px 60px;
+}
+
+.third-section-text {
+    padding: 24px;
+}
+
+.third-section-heading {
+    font-size: 24px;
+    color: #575770;
+}
+
+.third-section-description {
+    line-height: 20px;
+    width: 90%;
+    margin: 28px 0;
+}
+
+.third-section button {
+    background-color: transparent;
+    color: #9b5dc6;
+    border: 1px solid #9b5dc6;
+    padding: 8px 14px;
+    border-radius: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* FOOTER ------------------------ */
+
+footer {
+    padding: 24px 60px;
+    background-color: rgb(60, 60, 83);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+footer .list-title {
+    font-weight: 600;
+    color: #9b5dc6;
+    margin-bottom: 14px;
+}
+
+footer ul li {
+    margin-bottom: 12px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+footer .social-media-icons {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 24px;
+}
+
+footer .social-media-icons span {
+    color: white;
+    font-size: 30px;
+}
+
+footer .column:last-of-type p {
+    color: white;
+    margin-bottom: 12px;
 }
